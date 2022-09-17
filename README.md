@@ -47,3 +47,8 @@ you can run the demo with **220 FPS** in Nvidia RTX 3060 Laptop and **40 FPS** i
 ```shell
 ./build/motiontrack -m model/tiny-960.trt -v res/1_video.avi
 ```
+
+# Acknowledgements
+A large part of the code is borrowed from the previous outstanding work. Many thanks for their wonderful works.
+* [https://github.com/ifzhang/ByteTrack/tree/main/deploy/TensorRT/cpp](https://github.com/ifzhang/ByteTrack/tree/main/deploy/TensorRT/cpp)
+* [https://github.com/zhiqwang/yolov5-rt-stack/tree/main/deployment/tensorrt](https://github.com/zhiqwang/yolov5-rt-stack/tree/main/deployment/tensorrt)
